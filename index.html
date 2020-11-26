@@ -383,6 +383,17 @@
             </li>
           </ul>
         </div>
+        <div class="mailing">
+          <h4 class="footer-title">Подпишитесь на рассылку</h4>
+          <form class="footer-form">
+            <input class="footer-form-field" name="mailing" type="email" placeholder="E-mail">
+            <button class="btn btn-main btn-footer" type="submit">Подписаться
+              <svg class="mailing-icon-svg">
+                <use href="./images/sprite.svg#icon-mailing"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
     <div class="backdrop  is-hidden" data-modal>
@@ -392,6 +403,34 @@
             <use href="./images/sprite.svg#icon-close-button"></use>
           </svg>
         </button>
+        <form class="modal-form">
+          <p class="modal-text">Оставьте свои данные, мы вам перезвоним</p>
+          <div class="modal-form-field">
+            <label class="modal-label" for="name">Имя</label>
+            <input class="modal-input" name="name" type="text" id="name">
+            <svg class="modal-input-svg">
+              <use href="./images/sprite.svg#icon-person"></use>
+            </svg>
+        </div>
+          <div class="modal-form-field">
+            <label class="modal-label" for="phone">Телефон</label>
+            <input class="modal-input" name="phone" type="tel" id="phone">
+            <svg class="modal-input-svg">
+              <use href="./images/sprite.svg#icon-number"></use>
+            </svg>
+          </div>
+          <div class="modal-form-field">
+            <label class="modal-label" for="email">Почта</label>
+            <input class="modal-input" name="email" type="email" id="email">
+            <svg class="modal-input-svg">
+              <use href="./images/sprite.svg#icon-email"></use>
+            </svg>
+          </div>
+          <label class="modal-label" for="comments">Комментарий</label>
+          <textarea class="modal-textarea" name="comments" id="comments" rows="6" placeholder="Введите текст"></textarea>
+          <p class="modal-accept">Соглашаюсь с рассылкой и принимаю <a class="modal-contract" href="">Условия договора</a></p>
+          <button class="btn modal-btn" type="submit">Отправить</button>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
