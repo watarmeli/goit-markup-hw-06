@@ -838,9 +838,9 @@ img {
   border-radius: 4px;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  outline: none;
 }
 
-.modal-input:hover,
 .modal-input:focus {
   border-color: var(--accent-cl);
 }
@@ -869,13 +869,13 @@ img {
   border-radius: 4px;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  outline: none;
 }
 
 .modal-textarea::placeholder {
   color: rgba(117, 117, 117, 0.5);
 }
 
-.modal-textarea:hover,
 .modal-textarea:focus {
   border-color: var(--accent-cl);
 }
