@@ -396,6 +396,7 @@
         </div>
       </div>
     </footer>
+    <!-- Модальное окно -->
     <div class="backdrop  is-hidden" data-modal>
       <div class="modal">
         <button class="btn modal-close-btn" type="button" data-modal-close>
@@ -428,7 +429,11 @@
           </div>
           <label class="modal-label" for="comments">Комментарий</label>
           <textarea class="modal-textarea" name="comments" id="comments" rows="6" placeholder="Введите текст"></textarea>
-          <p class="modal-accept">Соглашаюсь с рассылкой и принимаю <a class="modal-contract" href="">Условия договора</a></p>
+          <div class="modal-checkbox">
+            <input class="checkbox-input" name="checkbox" type="checkbox" id="checkbox">
+            <label class="modal-accept" for="checkbox">Соглашаюсь с рассылкой и принимаю <a class="modal-contract" href="">Условия договора</a>
+            </label>
+          </div>
           <button class="btn modal-btn" type="submit">Отправить</button>
         </form>
       </div>
