@@ -880,23 +880,17 @@ img {
   border-color: var(--accent-cl);
 }
 
-.modal-checkbox {
-  display: flex;
-  align-items: center;
+.modal-accept {
   position: relative;
   margin-bottom: 30px;
-}
-
-.modal-accept {
-  margin-left: 37px;
+  padding-left: 37px;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--main-text-cl);
 }
 
-.modal-accept::before {
-  content: '';
+.checkbox-icon {
   position: absolute;
   width: 16px;
   height: 16px;
@@ -909,7 +903,7 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.checkbox-input:checked + .modal-accept::before {
+.checkbox-input:checked + .checkbox-icon {
   border-color: var(--accent-cl);
   background-color: var(--accent-cl);
   background-image: url(../images/checkbox.svg);
