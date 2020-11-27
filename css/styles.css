@@ -817,24 +817,19 @@ img {
   letter-spacing: 0.03em;
   color: var(--black);
 }
-/* 
-.modal-form-field {
-  position: relative;
-  margin-bottom: 10px;
-} */
 
 .modal-form-field {
   position: relative;
   display: block;
   margin-bottom: 10px;
-  font-size: 12px;
-  line-height: 1.166;
-  letter-spacing: 0.01em;
 }
 
 .modal-label {
   display: block;
   margin-bottom: 4px;
+  font-size: 12px;
+  line-height: 1.166;
+  letter-spacing: 0.01em;
 }
 
 .modal-input {
