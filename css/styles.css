@@ -702,7 +702,7 @@ img {
   display: flex;
 }
 
-.footer-form-field {
+.footer-form-input {
   flex-grow: 1;
   margin-right: 12px;
   padding-top: 15px;
@@ -718,11 +718,18 @@ img {
   color: var(--white);
 }
 
-.footer-form-field::placeholder {
+.footer-form-input::placeholder {
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-form-input:-webkit-autofill,
+.footer-form-input:-webkit-autofill:hover,
+.footer-form-input:-webkit-autofill:focus {
+  -webkit-text-fill-color: var(--white);
+  -webkit-box-shadow: 0 0 0px 1000px var(--dark-bg) inset;
 }
 
 .btn-footer {
